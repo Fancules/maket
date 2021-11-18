@@ -1,0 +1,64 @@
+.container {
+  width: 95%;
+  height: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.header {
+  background-color: #008B8B;
+  height: 20%;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 48px;
+  color: #FFE4C4;
+}
+
+.body {
+  display: flex;
+  height: 80%;
+}
+
+.categories {
+  background-color: green;
+  width: 30%;
+  border-style: border-box;
+  margin: 10px 10px 0 0;
+  display: inherit;
+  padding-top: 15px;
+  justify-content: center;
+}
+
+.categories p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.content {
+  background-color: orange;
+  height: 65%;
+  margin: 10px 0;
+  padding: 10px 0 0 30px;
+  font-size: 25px;
+}
+
+.list-of-news {
+  background-color: yellow;
+  height: 35%;
+  font-size: 25px;
+}
