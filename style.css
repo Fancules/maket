@@ -33,7 +33,6 @@ ul{
   width: 30%;
   border-style: border-box;
   margin: 10px 10px 0 0;
-  display: inherit;
   padding-top: 15px;
   justify-content: center;
 }
@@ -41,6 +40,10 @@ ul{
 .categories p {
   font-size: 30px;
   font-weight: bold;
+}
+
+.categories p:hover, .list-of-news p:hover{
+  cursor: pointer;
 }
 
 .right-side {
